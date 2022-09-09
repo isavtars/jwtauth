@@ -1,0 +1,112 @@
+.con{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    
+    color: #fff;
+    margin: 0px 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+   
+}
+
+
+
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5rem;
+
+
+}
+
+
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul li>a{
+
+   color: #fff;
+    padding: 0 .5rem;
+    text-decoration: none;
+}
+
+
+.showprofile{
+
+    height:100px;
+    width: 100px;
+    background-color: rgb(43, 43, 43);
+ position: absolute;
+ top:50px;
+ right:10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.noprofile{
+
+    display: none;
+}
+
+.logbutton{
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: red;
+    color:white;
+}
+/* 
+
+darkmoad toogle button */
+
+.darkmoadto{
+
+    background-color: rgb(20, 19, 19);
+    width: 80px;
+    height: 30px;
+   padding: 10px 3px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    position: relative;
+    z-index: 100;
+   
+}
+.empty{
+
+    background-color: rgb(248, 253, 248);
+    position: absolute;
+    border-radius: 20px;
+    border-radius: 50%;
+    z-index:-10;
+    height: 100%;
+    width: 50%;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    transition: all 0.1s ease-in-out;
+}
+
+.empty1{
+
+    background-color: rgb(244, 252, 244);
+    position: absolute;
+    border-radius: 20px;
+    border-radius: 50%;
+    z-index:-10;
+    height: 100%;
+    width: 50%;
+    left:50%;
+    top: 0;
+    bottom: 0;
+    right:0;
+    transition: all 0.2s ease-in-out;
+}

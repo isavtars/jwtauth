@@ -1,0 +1,73 @@
+.formr{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    font-size: 1.2rem;
+    margin: 15px;
+    padding: 0px 30px;
+   
+}
+
+.formr form {
+
+  background: rgb(54, 50, 50);
+    
+ padding: 20px 40px;
+ border-radius: 10px;
+ 
+}
+
+
+.formr form input{
+
+
+    /* width: 500px;
+    height: 80px; */
+    padding: 20px 100px;
+    border-radius: 10px;
+    border: none;
+ outline: none;
+ font-size:1.1rem;
+}
+
+.email,.password,.submit,.username{
+
+    margin:8px;
+}
+
+.extradiv{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.submit{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 0px;
+   
+}
+.submit input{
+     width: 97%;
+     cursor: pointer;
+     color: #fff;
+    
+    background:rgb(5, 237, 8);
+}
+.email h5 ,.password h5 ,.username h5{
+color: #fff;
+padding: 10px;
+font-size: 1.2rem;
+}
+
+
+span{
+    color: #fff;
+}
+
+

@@ -1,0 +1,19 @@
+apply the bcyript the paaswo in two wrappy
+
+npm add bcrypt 
+it has two fun hash  const bypass= await  bcrypt.hash(req.body.password,10);
+1)way one => 
+one the routing side 
+make the bycript the  req.passwor into bycript after the sve
+
+        const bypass= await  bcrypt.hash(req.body.password,10);
+        const email=req.body.email;
+        console.log(bypass)
+       const user= new  usermodel({email:email,password:bypass});
+       const data= await user.save();
+
+
+
+2)=>use middle ware after the save in db
+    on the schema
+one the routing side 
